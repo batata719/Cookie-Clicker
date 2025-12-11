@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mestre do Cookie</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="game-container">
+        <section class="bakery-section">
+            <div class="stats-header">
+                <h1 id="cookie-display">0 Cookies</h1>
+                <p id="cps-display">por segundo: 0.0</p>
+            </div>
+
+            <div class="cookie-container">
+                <div id="big-cookie" class="cookie">🍪</div>
+            </div>
+            
+            <div class="controls">
+                <button id="save-btn" class="util-btn">💾 Salvar</button>
+                <button id="reset-btn" class="util-btn danger">🗑️ Resetar</button>
+            </div>
+            <div id="message-log">Bem-vindo à sua padaria!</div>
+        </section>
+
+        <section class="store-section">
+            <h2>Loja de Melhorias</h2>
+            <div id="store-container">
+                </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
